@@ -102,7 +102,7 @@ html,body{
     width: 800px;
     height: 600px;
     font-size: 25px;
-    border: outset 45px #ff9e20;
+    border: outset 45px #ff9100;
 }
 @media screen and (max-width:850px){
     #ezgif{
@@ -110,7 +110,7 @@ html,body{
     }
     #hyo{
         width: 500px;
-        border:inset 30px #ff9e20;
+        border:inset 30px #ff9100;
     }
 }
 @media screen and (max-width:500px){
@@ -124,7 +124,7 @@ html,body{
         width: 90%;
         height: 300px;
         font-size: 13px;
-        border: outset 15px #ff9e20;
+        border: outset 15px #ff9100;
     }
 }
 
@@ -137,7 +137,7 @@ html,body{
     margin-bottom: 80px;
 }
 h1{
-    background-color: #fff3b1;
+    background-color: #ffd900;
 }
 @media screen and (max-width: 1025px){
     #work{
@@ -186,7 +186,7 @@ h1{
     width: 0;
     height: 5px;
     border-radius: 90px;
-    background-color: #31aae2;
+    background-color: #00aeff;
     transition: .3s;
     transform: translateX(-50%);
   }
@@ -195,7 +195,7 @@ h1{
     width: 100%;
   }
 #sakuhin a:hover{
-    color: #f7ab27;
+    color: #ffa200;
 }
 
 @media screen and (max-width: 1025px){
@@ -227,17 +227,17 @@ h1{
 }
 @media screen and (max-width:1025px) {
     #saktex{
-        border-bottom: solid 1px #9b7d1a;
+        border-bottom: solid 1px #ffc400;
         font-size: 12px;
     }
     #saktex span{
         font-size: 10px;
-        color:#149A65;
+        color:#00ff99;
     }
 }
 @media screen and (max-width:500px) {
     #saktex{
-        border-bottom: solid 1px #12fa79
+        border-bottom: solid 1px #00ff73
     }
     #saktex span{
         font-size: 10px;
@@ -268,12 +268,12 @@ h1{
 #sakich{
     font-family: "ichigojam";
     font-size: 40px;
-    color: #149A65;
+    color: #00ff99;
 }
 
 #sakjav{
     font-size: 50px;
-    color: #F0DB4F;
+    color: #ffdd00;
     margin-top: 25px;
     margin-bottom: 25px;
 }
