@@ -1,0 +1,355 @@
+html,body{
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family:Verdana,"ヒラギノ角ゴ Pro W3";
+    scroll-behavior:smooth;
+}
+::selection{
+    background: #019283;
+    color: #fff;
+}
+
+@font-face
+{
+    font-family: "ichigojam";
+    font-style: normal;
+    font-weight: 400;
+    src: local('IchigoJam-1.4'), local('IchigoJam-1.4-Regular'),
+         url("https://15-jam.vercel.app/IchigoJam-1.4.woff") format('woff');
+}
+
+.title{
+    border-bottom: solid 2px #fdd6d6;
+    background-color: #fffcea;
+}
+.title img{
+    width: 400px;
+    transition: 0.5s;
+}
+@media screen and (max-width: 500px){
+    .title img{
+        width: 250px;
+    }
+}
+.title img:hover{
+      transform: translateY(-20px);
+      cursor: pointer;
+}
+
+.mokuji{
+    width: 250px;
+    height: 271px;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-image: url(./image/color.png);
+    background-size: 250px 271px;
+    border:solid 1px #ff0;
+    border-radius: 10px;
+}
+.mokuji a{
+    display: inline-block;
+	padding: 0.1em 0.3em;
+	transition: all .5s;
+    color: black;
+}
+
+.mokuji a:hover{
+    text-decoration: none;
+    color: #fff;
+	background-color: #00f;
+    border-radius: 5px;
+}
+
+
+#jisen{
+    border-bottom: solid 1px black;
+}
+
+#left{
+    border-bottom: dashed 1px black;
+}
+
+#bottom{
+    margin-bottom: 10px;
+}
+
+#club{
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .image img{
+        width: 300px;
+    }
+
+    #club{
+        margin-top: 20px;
+    }
+}
+
+#ezgif{
+    margin-top: 40px;
+    width: 40%;
+}
+#hyo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 600px;
+    font-size: 25px;
+    border: outset 45px #ff9e20;
+}
+@media screen and (max-width:850px){
+    #ezgif{
+        width: 500px;
+    }
+    #hyo{
+        width: 500px;
+        border:inset 30px #ff9e20;
+    }
+}
+@media screen and (max-width:500px){
+    #ezgif{
+        margin-top: 15px;
+        width: 250px;
+    }
+    #hyo{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 300px;
+        font-size: 13px;
+        border: outset 15px #ff9e20;
+    }
+}
+
+#ichigojam{
+    font-family: "ichigojam";
+}
+
+#work{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+h1{
+    background-color: #fff3b1;
+}
+@media screen and (max-width: 1025px){
+    #work{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 25px;
+    }
+}
+
+#sakuhin{
+    margin-top: 50px;
+    width: 70%;
+    font-size: 20px;
+}
+@media screen and (max-width: 1025px){
+    #sakuhin{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 520px){
+    #sakuhin{
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    #sakuhin th{
+        display: block;
+        width: 100%;
+    }
+}
+
+#sakuhin a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  #sakuhin a::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 5px;
+    border-radius: 90px;
+    background-color: #31aae2;
+    transition: .3s;
+    transform: translateX(-50%);
+  }
+  
+  #sakuhin a:hover::after{
+    width: 100%;
+  }
+#sakuhin a:hover{
+    color: #f7ab27;
+}
+
+@media screen and (max-width: 1025px){
+    #jamimg{
+        margin-bottom: 15px;
+        width: 200px;
+    }
+    #ichigoimg{
+        display: none;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 520px){
+    #jamimg{
+        width: 200px;
+    }
+    #ichigoimg{
+        display: none;
+    }
+}
+
+#saktex{
+    border-bottom: solid 1px red;
+    width: 800px;
+}
+#saktex span{
+    font-size: 12px;
+    color: #00c3ff;
+}
+@media screen and (max-width:1025px) {
+    #saktex{
+        border-bottom: solid 1px #9b7d1a;
+        font-size: 12px;
+    }
+    #saktex span{
+        font-size: 10px;
+        color:#149A65;
+    }
+}
+@media screen and (max-width:500px) {
+    #saktex{
+        border-bottom: solid 1px #12fa79
+    }
+    #saktex span{
+        font-size: 10px;
+        color: yellowgreen;
+    }
+}
+#sakuhin img{
+    transition: .4s ;
+}
+#sakuhin img:hover {
+    opacity: 0.8 ;
+}
+
+@media screen and (max-width:1025px){
+    #saktie{
+        font-size: 12px;
+    }
+    #saktie img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:520px){
+    #saktie img{
+        width: 270px;
+    }
+}
+
+#sakich{
+    font-family: "ichigojam";
+    font-size: 40px;
+    color: #149A65;
+}
+
+#sakjav{
+    font-size: 50px;
+    color: #F0DB4F;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 500px){
+    #sakjav{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    #sakjav img{
+        display: none;
+    }
+}
+
+#end{
+    margin-left: 20%;
+    text-align: left;
+}
+@media screen and (max-width: 500px) {
+    #end{
+        margin-left: 10%;
+    }
+    #end img{
+        width: 70px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
+
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+.pagetop a {
+    background-color: #00ffd5;
+    border:solid 1px #00ffd5;
+    color:#fff;
+    border-radius: 90px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 24px 24px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    transition: all .3s;
+}
+.pagetop a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #00ffd5;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 24px 24px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+@media screen and (max-width: 1025px){
+    .pagetop{
+        bottom: 10px;
+    }
+    .pagetop a:hover{
+        background-color: #00ffd5;
+        color:#fff; 
+    }
+}
+@media screen and (max-width: 500px) {
+    .pagetop a{
+        font-size: 10px;
+        padding: 20px 20px;
+    }
+    .pagetop a:hover{
+        font-size: 10px;
+        padding: 20px 20px;
+    }
+}

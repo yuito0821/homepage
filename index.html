@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>新田塚プログラミングクラブ</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- アイコン -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- ファビコン -->
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/apple-touch-icon-180x180.png">
+    <!-- jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script/scroll.js"></script>
+</head>
+
+<body>
+
+    <p class="title">
+        <img src="./image/title.png">
+    </p>
+
+    <table align="center" class="mokuji">
+        <tr>
+            <th height="60" colspan="2" id="jisen">目次</th>
+        </tr>
+
+        <tr>
+            <th height="60" colspan="2" id="left">
+                <a href="#club">クラブの紹介</a>
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                <a href="#work">作品</a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <a href="#sakich" id="bottom">
+                    <div>1. IchigoJam</div>
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <a href="#sakjav" id="bottom">
+                    <div>2. JavaScript</div>
+                </a>
+            </th>
+        </tr>
+    </table>
+
+    <div class="image">
+        <img src="./image/image1.jpg" width="450" onselectstart="return false;" onmousedown="return false;"
+            oncontextmenu="return false;">
+        <img src="./image/image2.jpg" width="450" onselectstart="return false;" onmousedown="return false;"
+            oncontextmenu="return false;">
+        <img src="./image/image3.jpg" width="450" onselectstart="return false;" onmousedown="return false;"
+            oncontextmenu="return false;">
+    </div>
+
+    <div id="club">
+        <img id="ezgif" src="./image/ezgif.com-gif-maker.gif">
+
+        <table border="1" align="center" id="hyo">
+            <tr>
+                <th>対象</th>
+                <th>小学生〜無制限</th>
+            </tr>
+
+            <tr>
+                <th>開催日</th>
+                <th>毎週金曜日</th>
+            </tr>
+
+            <tr>
+                <th>時間</th>
+                <th id="ichigojam">
+                    前半 17:00~17:45
+                    <div>後半 18:00~19:30</div>
+                </th>
+            </tr>
+
+            <tr>
+                <th>参加費</th>
+                <th id="ichigojam">
+                    前半 200円
+                    <div>後半 300円</div>
+                </th>
+            </tr>
+
+            <tr>
+                <th>人数</th>
+                <th>
+                    前半　空がありません
+                    <div>後半　空がありません</div>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div id="work">
+        <h1>作品</h1>
+        <table align="center" id="sakuhin">
+
+            <tr id="sakich">
+                <th colspan="2">
+                    <a href="https://ichigojam.net" target="_blank" rel="noopener noreferrer">
+                        <img id="jamimg" src="./image/jam.png" width="300">
+                        <img id="ichigoimg" src="./image/ichigojam-s.jpeg" width="100">
+                    </a>
+                </th>
+            </tr>
+
+            <tr>
+                <th id="saktie">
+                    <a href="https://fukuno.jig.jp/app/IchigoJam/#10%20CLV%3AX%3D15%3AY%3D10%3AA%3DRND(30)%3AB%3DRND(20)%3AH%3D20%3AK%3D0%0A20%20CLS%3ALC%20X%2CY%3A%3F%22%C7%BA%22%3ALC%200%2C0%3A%3F%22HP%22%2CH%0A30%20IFP%3E10%20LC%2012%2C10%3A%3F%22CLEAR!%22%3ABEEP9%2C50%3AEND%0A40%20IFBTN(28)%3D1%20X%3DX-1%0A50%20IFBTN(29)%3D1%20X%3DX%2B1%0A60%20IFBTN(30)%3D1%20Y%3DY-1%0A70%20IFBTN(31)%3D1%20Y%3DY%2B1%0A75%20IFX%3E30%20X%3D30%0A80%20IFX%3C0%20X%3D0%0A85%20IFY%3E20%20Y%3D20%0A90%20IFY%3C0%20Y%3D0%0A95%20LC%20A%2CB%3A%3F%22%20%22%3B%0A100%20IFX%3EA%20A%3DA%2B1%3AIFX-A%3C7%20GSB300%0A110%20IFX%3CA%20A%3DA-1%3AIFA-X%3C7%20GSB300%0A120%20IFY%3EB%20B%3DB%2B1%3AIFY-B%3C7%20GSB300%0A130%20IFY%3CB%20B%3DB-1%3AIFB-Y%3C7%20GSB300%0A132%20LC%20A%2CB%3AIF%20RND(3)%20%3F%22%20%22%3B%20ELSE%20%3FCHR%24(233)%3B%0A134%20IFBTN(32)%20GSB210%0A135%20WAIT1%3AIFK%3E15%20K%3D0%3AA%3DRND(30)%3AB%3DRND(20)%0A140%20IFX%3DA%20AND%20B%3DY%20H%3DH-1%0A150%20IFH%3C1%20CLS%3ALC%2011%2C10%3A%3F%22GAME%20OVER%22%3ABEEP100%2C50%3AEND%0A200%20GOTO20%0A210%20DRAW%20(X%2B1)*2%2CY*2%2C63%2CY*2%0A220%20DRAW%20(X-1)*2%2CY*2%2C0%2CY*2%0A230%20DRAW%20X*2%2C(Y%2B1)*2%2CX*2%2C47%0A240%20DRAW%20X*2%2C(Y-1)*2%2CX*2%2C0%0A250%20LC%20X%2CY%3A%3F%22%C7%BA%22%0A252%20IFX%3DA%20OR%20Y%3DB%20GOTO255%20ELSE%20RTN%0A255%20IFABS(X-A)%3E5%20GOTO275%0A256%20IFABS(Y-B)%3E5%20GOTO275%0A270%20RTN%0A275%20LC%20A%2CB%3A%3F%22%C7%A9%22%3AWAIT20%3ALC%20A%2CB%3A%3F%22*%22%0A280%20BEEP%3AWAIT60%3AP%3DP%2B1%0A290%20A%3DRND(30)%3AB%3DRND(20)%3AK%3D0%3ARTN%0A300%20K%3DK%2B1%3ARTN%0ARUN%0A"
+                        target="_blank" rel="noopener noreferrer"><img src="./image/game img/obake.png" width="300">
+                        <p>お化け撃退ゲーム</p>
+                    </a>
+                </th>
+
+                <th id="saktex">
+                    お化けを撃退するゲームです。
+                    <p>スペースキーで攻撃できます。</p>
+                    <p align="right"><span>made by YU</span></p>
+                </th>
+            </tr>
+
+            <tr>
+                <th id="saktie">
+                    <a href="https://fukuno.jig.jp/app/IchigoJam/#%0A2%20A%3D10%3AB%3D15%3AD%3D15%3AF%3D0%3AG%3DRND(10)%3AI%3D0%3AP%3D0%3AJ%3D0%3AK%3D0%3AS%3D30%3AL%3D0%3ACLS%0A5%20E%3DRND(10)%3ALC%20RND(31)%2CRND(19)%3A%3FE%0A9%20IF%20F%3C10%20F%3DF%2B1%3AGOTO%205%0A10%20LC%20A%2CB%3A%3F%22%20%22%0A11%20LC%20A%2CB-1%3A%3F%22%20%22%0A12%20K%3DRND(90)%0A13%20IF%20K%3D0%3AK%3D1%0A17%20IF%20BTN(UP)%20AND%20B%3E1%20B%3DB-1%0A18%20IF%20BTN(DOWN)%20AND%20B%3C20%20B%3DB%2B1%0A19%20IF%20BTN(LEFT)AND%20A%3E0%20A%3DA-1%0A20%20IF%20BTN(RIGHT)%20AND%20A%3C31%20A%3DA%2B1%0A25%20H%3DSCR(A%2CB)%3AIF%20H%3E%3D48%20AND%20H%3C%3D58%3AI%3DH-48%0A26%20H%3DSCR(A%2CB-1)%3AIF%20H%3E%3D48%20AND%20H%3C%3D58%3AI%3DH-48%0A30%20LC%20A%2CB%3A%3F%22%C7%AD%22%0A31%20G%3DG%2BI%0A40%20LC%20A%2CB-1%3A%3FG%0A51%20I%3D0%0A52%20IF%20G%3D10%3AP%3DP%2B1%3ABEEP%204%2C1%3ALC%20A%2CB-1%3A%3F%22%20%20%22%3AG%3DRND(10)%0A53%20IF%20G%3E%3D10%3AP%3DP-1%3ABEEP%2020%2C10%3ALC%20A%2CB-1%3A%3F%22%20%20%22%3AG%3DRND(10)%0A100%20IF%20J%25K%3D%3D0%3AE%3DRND(10)%3ALC%20RND(31)%2CRND(20)%3A%3FE%0A194%20IF%20S%3D0%3ACLS%3ALC%2011%2C10%3A%3F%22%EF%BD%BD%EF%BD%BA%EF%BD%B1%3A%22%3ALC%2015%2C10%3A%3FP%3AEND%0A195%20LC%208%2C21%3A%3F%22%20%20%22%0A196%20LC%200%2C21%3A%3F%22%EF%BE%89%EF%BD%BA%EF%BE%98%EF%BD%BC%EF%BE%9E%EF%BD%B6%EF%BE%9D%3A%22%0A197%20LC%208%2C21%3A%3FS%0A198%20IF%20L%3E%3D15%3AS%3DS-1%3AL%3D0%0A200%20J%3DJ%2B1%3AL%3DL%2B1%3AGOTO%2010%0A%0ARUN%0A"
+                        target="_blank" rel="noopener noreferrer"><img src="./image/game img/tashizan.png" width="300">
+                        <p>足し算ゲーム</p>
+                    </a>
+                </th>
+
+                <th id="saktex">
+                    プレイヤーが持っている数字が10になるように落ちている数字を拾ってください。
+                    <p>ちょうど10になれば得点が入ります。</p>
+                    <p align="right"><span>made by GOTO</span></p>
+                </th>
+            </tr>
+
+            <tr>
+                <th id="saktie">
+                    <a href="https://fukuno.jig.jp/app/IchigoJam/#5%20S%3D10%3ACLT%3ACLS%0A10%20LC%2016%2C12%3A%3F%22%C7%B9%22%0A30%20R%3DRND(5)%0A35%20LC%2013%2C9%3A%3F%22%20%20%20%22%3ALC%20X%2CY%3A%3F%22%20%22%0A40%20IF%20R%3D%3D0%20X%3D16%3AY%3D7%0A50%20IF%20R%3D%3D1%20X%3D13%3AY%3D7%0A60%20IF%20R%3D%3D2%20X%3D16%3AY%3D4%0A70%20IF%20R%3D%3D3%20X%3D16%3AY%3D10%0A80%20IF%20R%3D%3D4%20X%3D19%3AY%3D7%0A85%20LC%20X%2CY%3A%3F%22%C7%AD%22%0A90%20LC%2016%2C11%0A100%20K%3DINKEY()%0A110%20IF%20K%3D%3D32%20%3FCHR%24(239)%20ELSE%20%3FCHR%24(0)%3AWAIT%206%3AGSB%20600%0A120%20IF%20SCR(16%2C10)%3D%3D237%20AND%20SCR(16%2C11)%3D%3D239%20BEEP%207%2C15%3ALC%2013%2C9%3A%3F%22%EF%BE%8A%EF%BE%9E%EF%BD%BC%22%3AS%3DS%2B5%3ALC%208%2C20%3A%3F%22%20%20%20%22%0A130%20LC%205%2C20%3A%3F%22HP%20%22%3BS%0A140%20LC%2012%2C20%3A%3F%22%EF%BD%BD%EF%BD%BA%EF%BD%B1%20%22%3BTICK()%2F50%0A150%20IF%20TICK()%3E3600%20END%0A160%20IF%20S%3C0%20END%0A400%20WAIT%202%0A500%20GOTO%2030%0A600%20IF%20R%3D%3D3%20LC%2016%2C11%3A%3FCHR%24(242)%3AS%3DS-5%3ARTN%20ELSE%20WAIT%206%3ARTN%0A610%20WAIT6%0A620%20LC%2016%2C11%3A%3FCHR%24(242)%3ABEEP20%2C20%3AWAIT%2030%0A640%20RTN%0ARUN%0A"
+                        target="_blank" rel="noopener noreferrer"><img src="./image/game img/daihuku.png" width="300">
+                        <p>ダイフクセイジンヲタオセ</p>
+                    </a>
+                </th>
+
+                <th id="saktex">
+                    ダイフクセイジンが攻めて来ます。
+                    <p>スペースキーで攻撃してください。</p>
+                    <p align="right"><span>made by MANAITA</span></p>
+                </th>
+            </tr>
+
+            <tr>
+                <th id="saktie">
+                    <a href="https://fukuno.jig.jp/app/IchigoJam/#1%20'%EF%BD%BC%EF%BE%9E%EF%BD%AC%EF%BE%9D%EF%BD%B9%EF%BE%9D%0A2%20POKE%23720%2C0%2C126%2C126%2C126%2C126%2C126%2C60%2C0%2C68%2C68%2C40%2C56%2C124%2C124%2C56%2C0%2C85%2C85%2C127%2C255%2C255%2C127%2C62%2C0%0A10%20VIDEO3%3ACLS%3ACLV%3AA%3D1000%3AB%3D1000%0A20%20LC5%2C0%3A%3F%22%EF%BD%B6%EF%BD%B9%EF%BD%B7%EF%BE%9D%22%0A30%20LC4%2C5%3A%3F%22%EF%BE%89%EF%BD%BA%EF%BE%98%3A%22%3BA%3ALC4%2C2%3AINPUTC%0A32%20IFC%3C100LC5%2C2%3A%3F%22%20%20%20%22%3AGOTO30%0A35%20A%3DA-C%3ALC8%2C5%3A%3FA%3B%22%20%20%20%22%0A40%20LC4%2C7%3A%3F%22%EF%BD%B1%EF%BD%B2%EF%BE%83%22%3ALC4%2C9%3A%3F%22%EF%BE%89%EF%BD%BA%EF%BE%98%3A%22%3BB%3AWAIT80%3AR%3D(RND(60)%2B1)*10%2B100%3AB%3DB-R%3ALC8%2C9%3A%3FB%3B%22%20%20%20%22%3AWAIT60%0A50%20CLS%3ALC5%2C2%3A%3F%22%EF%BD%BC%EF%BE%9E%EF%BD%AC%EF%BE%9D%EF%BD%B9%EF%BE%9D%22%3ALC5%2C5%3A%3F%22%C7%A4%20%EF%BD%B8%EF%BE%9E%EF%BD%B0%22%3ALC5%2C6%3A%3F%22%C7%A5%20%EF%BE%81%EF%BD%AE%EF%BD%B7%22%3ALC5%2C7%3A%3F%22%C7%A6%20%EF%BE%8A%EF%BE%9F%EF%BD%B0%22%3ALC5%2C8%3A%3F%22R%20%EF%BE%97%EF%BE%9D%EF%BE%80%EF%BE%9E%EF%BE%91%22%3AY%3D5%0A55%20LC3%2CY%3A%3F%22%C7%A1%22%3AWAIT2%0A57%20LC3%2CY%3A%3F%22%20%22%0A59%20IFBTN(32)WAIT100%3AY%3DY-4%3AT%3DRND(3)%2B1%3AGOTO85%0A60%20IFBTN(30)%26%26Y%3E5Y%3DY-1%0A70%20IFBTN(31)%26%26Y%3C8Y%3DY%2B1%0A80%20GOTO55%0A85%20IFY%3D4Y%3DRND(3)%2B1%0A90%20CLS%3ALC0%2C4%3A%3F%22%EF%BD%BC%EF%BE%9E%EF%BE%8C%EF%BE%9E%EF%BE%9D%22%3ALC12%2C4%3A%3F%22%EF%BD%B1%EF%BD%B2%EF%BE%83%22%3AWAIT60%3ALC3%2C2%3A%3F%22%EF%BD%BC%EF%BE%9E%EF%BD%AC%EF%BE%9D%EF%BD%B9%EF%BE%9D%22%3B%3AWAIT60%3A%3F%22%EF%BE%8E%EF%BE%9F%EF%BE%9D!%22%3ALC2%2C6%3A%3FCHR%24(Y%2B227)%3ALC13%2C6%3A%3FCHR%24(T%2B227)%0A100%20IF(Y-T%2B2)%253%3D1LC2%2C8%3A%3F%22%EF%BD%B6%EF%BE%81%22%3AGOTO200%0A110%20IFY-T%3D0LC7%2C8%3A%3F%22%EF%BD%B1%EF%BD%B2%EF%BD%BA%22%3AWAIT50%3AGOTO50%0A120%20LC2%2C8%3A%3F%22%EF%BE%8F%EF%BD%B9%22%3AWAIT50%0A130%20A%3DA-R%3AB%3DB%2BC%2BR%0A135%20IFA%3C1S%3D%22%EF%BE%8F%EF%BD%B9%22%3AGOTO300%0A140%20WAIT80%3ACLS%3AGOTO20%0A200%20A%3DA%2BC%2BR%3AB%3DB-C%0A205%20IFB%3C1S%3D%22%EF%BD%B6%EF%BE%81%22%3AGOTO300%0A210%20WAIT80%3ACLS%3AGOTO20%0A300%20WAIT80%3ACLS%3ALC4%2C3%3A%3F%22%EF%BD%BC%EF%BE%9E%EF%BE%8C%EF%BE%9E%EF%BE%9D%22%3ALC4%2C5%3A%3F%22%EF%BE%89%EF%BD%BA%EF%BE%98%3A%22%3BA%3ALC4%2C1%3A%3FSTR%24(S)%3ADRAW0%2C12%2C29%2C12%3ALC4%2C7%3A%3F%22%EF%BD%B1%EF%BD%B2%EF%BE%83%22%3ALC4%2C9%3A%3F%22%EF%BE%89%EF%BD%BA%EF%BE%98%3A%22%3BB%0A%0ARUN%0A"
+                        target="_blank" rel="noopener noreferrer"><img src="./image/game img/janken.png" width="300">
+                        <p>じゃんけん</p>
+                    </a>
+                </th>
+
+                <th id="saktex">
+                    初めに100以上をかけてください。
+                    <p>そしてじゃんけんをしてください。</p>
+                    <p align="right"><span>made by MU-RA</span></p>
+                </th>
+            </tr>
+        </table>
+
+
+
+        <table align="center" id="sakuhin">
+            <tr>
+                <th colspan="2"><a id="sakjav"
+                        href="https://www.google.com/search?q=javascript&oq=javascript&aqs=chrome.0.69i59l3j0i131i433j0j69i60l2j69i61.9371j0j7&sourceid=chrome&ie=UTF-8"
+                        target="_blank" rel="noopener noreferrer">JavaScript <img src="./image/javascript.png"
+                            width="50"></a>
+                </th>
+            </tr>
+
+            <tr>
+                <th id="saktie">
+                    <a href="./kudari_game/kudari.html" target="_blank" rel="noopener noreferrer"><img
+                            src="./image/game img/kudariJs.png" width="300">
+                        <p>かわくだり JS Edition</p>
+                    </a>
+                </th>
+
+                <th id="saktex">
+                    <p>操作は←→キーで岩にぶつからないようにかわをくだってください。</p>
+                    <p>ENTERキーでリスタートできます。</p>
+                    <p align="right"><span>made by MU-RA</span></p>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+
+    <p class="pagetop"><a href="#wrap"><i class="fas fa-angle-double-up fa-2x"></i></a></p>
+
+    <div id="end"><img src="./image/pcn.png" width="100"></div>
+    <footer>copyright © 2021 yuito</footer>
+</body>
+
+</html>
