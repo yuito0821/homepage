@@ -227,12 +227,12 @@ h1{
 }
 @media screen and (max-width:1025px) {
     #saktex{
-        border-bottom: solid 1px #ffc400;
+        border-bottom: solid 1px #000000;
         font-size: 12px;
     }
     #saktex span{
         font-size: 10px;
-        color:#00ff99;
+        color:#eeff00;
     }
 }
 @media screen and (max-width:500px) {
@@ -268,7 +268,7 @@ h1{
 #sakich{
     font-family: "ichigojam";
     font-size: 40px;
-    color: #00ff99;
+    color: #e100ff;
 }
 
 #sakjav{
