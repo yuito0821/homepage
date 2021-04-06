@@ -7,8 +7,7 @@ html,body{
     scroll-behavior:smooth;
 }
 ::selection{
-    background: #019283;
-    color: #fff;
+    background: #fdd6d6;
 }
 
 @font-face
@@ -102,7 +101,7 @@ html,body{
     width: 800px;
     height: 600px;
     font-size: 25px;
-    border: outset 45px #ff9100;
+    border: outset 45px #ff9e20;
 }
 @media screen and (max-width:850px){
     #ezgif{
@@ -110,7 +109,7 @@ html,body{
     }
     #hyo{
         width: 500px;
-        border:inset 30px #ff9100;
+        border:inset 30px #ff9e20;
     }
 }
 @media screen and (max-width:500px){
@@ -124,7 +123,7 @@ html,body{
         width: 90%;
         height: 300px;
         font-size: 13px;
-        border: outset 15px #ff9100;
+        border: outset 15px #ff9e20;
     }
 }
 
@@ -137,7 +136,7 @@ html,body{
     margin-bottom: 80px;
 }
 h1{
-    background-color: #ffd900;
+    background-color: #fff3b1;
 }
 @media screen and (max-width: 1025px){
     #work{
@@ -186,7 +185,7 @@ h1{
     width: 0;
     height: 5px;
     border-radius: 90px;
-    background-color: #00aeff;
+    background-color: #31aae2;
     transition: .3s;
     transform: translateX(-50%);
   }
@@ -195,7 +194,27 @@ h1{
     width: 100%;
   }
 #sakuhin a:hover{
-    color: #ffa200;
+    color: #f7ab27;
+}
+@media screen and (max-width: 1025px) {
+    #sakuhin a::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 90px;
+    background-color: #31aae2;
+    transition: .3s;
+    transform: translateX(-50%);
+    }
+    #sakuhin a:hover::after{
+        width: 100%;
+      }
+    #sakuhin a:hover{
+        color: #31aae2;
+    }
 }
 
 @media screen and (max-width: 1025px){
@@ -227,17 +246,17 @@ h1{
 }
 @media screen and (max-width:1025px) {
     #saktex{
-        border-bottom: solid 1px #000000;
+        border-bottom: solid 1px #9b7d1a;
         font-size: 12px;
     }
     #saktex span{
         font-size: 10px;
-        color:#eeff00;
+        color:#149A65;
     }
 }
 @media screen and (max-width:500px) {
     #saktex{
-        border-bottom: solid 1px #00ff73
+        border-bottom: solid 1px #12fa79
     }
     #saktex span{
         font-size: 10px;
@@ -268,12 +287,12 @@ h1{
 #sakich{
     font-family: "ichigojam";
     font-size: 40px;
-    color: #e100ff;
+    color: #149A65;
 }
 
 #sakjav{
     font-size: 50px;
-    color: #ffdd00;
+    color: #F0DB4F;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -317,7 +336,7 @@ h1{
     text-align: center;
     font-size: 12px;
     text-decoration: none;
-    padding: 24px 24px;
+    padding: 27px 24px;
 	filter:alpha(opacity=50);
     -moz-opacity: 0.7;
     opacity: 0.7;
@@ -329,7 +348,7 @@ h1{
     text-align: center;
     font-size: 12px;
     text-decoration: none;
-    padding: 24px 24px;
+    padding: 27px 24px;
 	filter:alpha(opacity=50);
     -moz-opacity: 0.7;
     opacity: 0.7;
