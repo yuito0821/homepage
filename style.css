@@ -7,7 +7,9 @@ html,body{
     scroll-behavior:smooth;
 }
 ::selection{
-    background: #fdd6d6;
+    background: #84c449;
+    color: #000;
+    text-shadow: 1px 1px 1px #ffffff;
 }
 
 @font-face
