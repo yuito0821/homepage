@@ -299,6 +299,11 @@ h1{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+@media screen and (max-width: 1025px){
+    svg{
+        width: 30px;
+    }
+}
 @media screen and (max-width: 500px){
     #sakjav{
         font-size: 40px;
@@ -358,7 +363,7 @@ h1{
 }
 @media screen and (max-width: 1025px){
     .pagetop{
-        bottom: 10px;
+        bottom: 15px;
     }
     .pagetop a:hover{
         background-color: #00ffd5;
