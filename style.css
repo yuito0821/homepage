@@ -86,6 +86,7 @@ html,body{
 @media screen and (max-width: 500px) {
     .image img{
         width: 300px;
+        pointer-events: none;
     }
 
     #club{
