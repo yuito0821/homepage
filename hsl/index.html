@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>キャンバス</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="700" height="700"></canvas>
+
+    <div>
+        <i>彩度</i>
+        <input type="range" id="colors" max="100" min="0" step="1" value="100" class="range">
+        <input type="text" id="Stext" size="2" class="text">
+    </div>
+
+    <div>
+        <i>明度</i>
+        <input type="range" id="colorl" max="100" min="0" step="1" value="50" class="range">
+        <input type="text" id="Ltext" size="2" class="text">
+    </div>
+
+    <div>
+        <button type="button" id="thickElement" onclick="thick()">太く</button>
+        <button type="button" id="thinElement" onclick="thin()">細く</button>
+        <input type="text" id="thickness" size="2" class="text">
+    </div>
+
+    <div>
+        <button type="button" id="button" onclick="clear()">画面クリア</button>
+    </div>
+    <div>
+        <button type="button" id="xy" onclick="xyclear()">座標を戻す</button>
+    </div>
+
+    <script src="canvas.js"></script>
+</body>
+
+</html>
