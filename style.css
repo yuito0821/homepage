@@ -313,6 +313,9 @@ h1{
     margin-left: 20%;
     text-align: left;
 }
+footer{
+    color: #888;
+}
 @media screen and (max-width: 500px) {
     #end{
         margin-left: 10%;
